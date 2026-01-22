@@ -3,8 +3,8 @@ trigger:
 
 variables:
   # Making these variables makes the script easier to maintain
-  azureServiceConnection: 'SC-Azure-Demo-Dp'
-  webAppName: 'demo-app-7996'
+  azureServiceConnection: 'SpaceX-Ron'
+  webAppName: 'SpaceX-Ron'
   vmImageName: 'windows-latest' 
 
 stages:
