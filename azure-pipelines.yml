@@ -49,7 +49,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeployJob # Using 'deployment' job type enables environment tracking
-    environment: 'production'
+    environment: 'ServerX'
     pool:
       vmImage: $(vmImageName)
     strategy:
